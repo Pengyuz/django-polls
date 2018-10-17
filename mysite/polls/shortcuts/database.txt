@@ -1,0 +1,21 @@
+a.objects.all()
+q = a(f1='',f2='')
+q.save
+q.f1
+q.f2
+q.f1 = ''
+q.f2 =''
+q.save()
+
+a.objects.filter(f1='')
+q = a.objects.get(pk=1) //primary key = 1
+q.delete()
+
+fields:
+models.ForeignKey(Table,on_delete/on_update=models.CASCADE)
+models.CharField(max_length = )
+models.DateField()
+models.TextField()
+models.IntegerField()
+models.ManyToManyField(Author)
+

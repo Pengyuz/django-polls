@@ -1,0 +1,5 @@
+dv/
+mysite/polls/migrations/
+mysite/polls/__pycache__/
+.idea/
+mysite/mysite/__pycache__/
